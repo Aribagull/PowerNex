@@ -63,7 +63,7 @@ export default function ContactUs() {
             <div>
               <h4 className="font-semibold text-lg">Address</h4>
               <p className="text-gray-700">
-                1464 omega street elmont newyork 11003
+                1464  Omega Street Elmont NewYork 11003
               </p>
             </div>
           </div>
