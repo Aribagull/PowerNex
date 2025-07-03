@@ -42,7 +42,7 @@ export default function ContactUs() {
             </div>
             <div>
               <h4 className="font-semibold text-lg">Phone</h4>
-              <p className="text-gray-700">5164219925</p>
+              <p className="text-gray-700">6205203171</p>
             </div>
           </div>
 
@@ -52,7 +52,7 @@ export default function ContactUs() {
             </div>
             <div>
               <h4 className="font-semibold text-lg">Email</h4>
-              <p className="text-gray-700">nationwide@gmail.com</p>
+              <p className="text-gray-700">Powernexsystem@gmail.com</p>
             </div>
           </div>
 

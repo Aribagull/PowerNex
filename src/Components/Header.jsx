@@ -55,12 +55,17 @@ export default function Header() {
         <div className="flex items-center justify-between">
 
          
-          <Link to="/" className="text-xl font-heading text-white flex items-center gap-2">
-            <div className="bg-white w-8 h-8 rounded-lg flex items-center justify-center text-[#698927] text-lg font-semibold">
-              N
-            </div>
-            NationWide
-          </Link>
+         <Link to="/" className="text-xl font-heading text-white flex items-center gap-2">
+  <div className="bg-white w-10 h-10 rounded-lg flex items-center justify-center text-[#698927] text-xl font-semibold">
+    P
+  </div>
+
+  <div className="flex flex-col leading-tight">
+    <p className="text-2xl text-white">Powernex</p>
+    <span className="text-sm ml-3 text-white">Systems INC.</span>
+  </div>
+</Link>
+
 
           <div className="flex items-center gap-4 md:hidden">
             <Link to="/cart" className="relative text-white hover:text-blue-300">
