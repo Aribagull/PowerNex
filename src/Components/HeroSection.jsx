@@ -18,7 +18,7 @@ export default function HeroSection() {
           transition={{ delay: 0.2, duration: 0.8, ease: "easeOut" }}
           className="text-white text-sm sm:text-base uppercase mt-16 mb-6 sm:mb-8"
         >
-          Welcome to NationWide.
+          Welcome to Powernex System INC.
         </motion.h2>
 
         <motion.h1
