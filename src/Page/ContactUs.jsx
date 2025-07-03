@@ -42,7 +42,7 @@ export default function ContactUs() {
             </div>
             <div>
               <h4 className="font-semibold text-lg">Phone</h4>
-              <p className="text-gray-700">6205203171</p>
+              <p className="text-gray-700">6315203173</p>
             </div>
           </div>
 
