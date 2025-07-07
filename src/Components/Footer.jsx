@@ -51,7 +51,7 @@ const Footer = () => {
 
    
       <div className="text-center text-sm text-gray-600">
-        Copyright © 2025 Generic eCommerce
+        Copyright © 2025 Powernex Systems INC.
       </div>
     </footer>
   );

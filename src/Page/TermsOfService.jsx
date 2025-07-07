@@ -35,7 +35,7 @@ const TermsAndConditions = () => {
           {
             title: "Introduction",
             content:
-              "Welcome to NationWide. By accessing or using our website, you agree to be bound by these terms and conditions. If you do not agree, please do not use our services.",
+              "Welcome to Powernex Systems INC. By accessing or using our website, you agree to be bound by these terms and conditions. If you do not agree, please do not use our services.",
           },
           {
             title: "Use of Website",

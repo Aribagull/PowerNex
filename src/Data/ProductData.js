@@ -19,17 +19,17 @@ const Productsdata = [
     category: "Camera",
     details: "The Night Vision Dome Camera is a reliable and versatile security solution ideal for both indoor and outdoor environments. Designed with advanced night vision technology, it provides clear and detailed footage even in complete darkness, making it perfect for 24/7 surveillance. Its compact dome design allows for discreet installation while offering wide-angle coverage to monitor large areas effectively. Built with a durable, weather-resistant casing, this camera performs well in various conditions such as rain, dust, or heat. Whether installed in offices, homes, parking lots, or commercial spaces, it ensures continuous protection and peace of mind. Easy integration with existing security systems and remote access features make it a smart choice for modern surveillance needs.",
   },
-  {
-    id: 3,
-    title: "Best Meike Lens for Astrophotography",
-    description: "Versatile zoom lens for everyday shooting",
-    price: "7750.00",
-    sizes: "Small, Medium, Large",
-    image: "https://th.bing.com/th/id/R.96ec95db9ef945c7c66e0f5178db750e?rik=cd7%2buyVUKnII9Q&riu=http%3a%2f%2fastrophotographylens.com%2fcdn%2fshop%2fcollections%2fmeike.png%3fv%3d1700525656&ehk=vgjNeiCx1rV8xqRRYt0%2bxmJTsfjQx8JtL3hY%2ftK2zLo%3d&risl=&pid=ImgRaw&r=0",
-     category: "Lense",
-    subcategory: "accessory",
-    details: "The Grey Stone Work Jilbab is a graceful blend of modesty and elegance, crafted for women who appreciate both comfort and style. Made from high-quality, breathable fabric, it ensures ease of movement while maintaining full coverage. The soft grey color adds a touch of sophistication, while the delicate stone embellishments on the front and sleeves offer a subtle sparkle that enhances its overall look. Designed with a relaxed fit and flowing silhouette, this jilbab is ideal for both daily wear and special occasions. Whether worn to a gathering, mosque, or casual outing, it brings together modest fashion and refined detail in a timeless piece."
-  },
+ {
+  id: 3,
+  title: "Best Meike Lens for Astrophotography",
+  description: "Versatile zoom lens for everyday shooting",
+  price: "7750.00",
+  sizes: "Small, Medium, Large",
+  image: "https://th.bing.com/th/id/R.96ec95db9ef945c7c66e0f5178db750e?rik=cd7%2buyVUKnII9Q&riu=http%3a%2f%2fastrophotographylens.com%2fcdn%2fshop%2fcollections%2fmeike.png%3fv%3d1700525656&ehk=vgjNeiCx1rV8xqRRYt0%2bxmJTsfjQx8JtL3hY%2ftK2zLo%3d&risl=&pid=ImgRaw&r=0",
+  category: "Lens",
+  subcategory: "Accessory",
+  details: "The Meike Lens for Astrophotography is a high-quality, versatile zoom lens designed for capturing stunning night sky images and everyday photography. Its wide aperture allows more light, producing sharp, clear shots of stars, galaxies, and landscapes even in low-light conditions. Built with precision glass elements, it minimizes distortion and chromatic aberration, ensuring high-definition results. Compact and lightweight, this lens is easy to carry for outdoor shoots, travel, and daily use. Compatible with various camera mounts, it’s an ideal choice for photographers who want exceptional image quality for astrophotography and regular shooting alike."
+},
   {
     id: 4,
     title: "Nexuas 24-70mm f/2.8 Zoom Lens",
@@ -49,30 +49,31 @@ const Productsdata = [
     subcategory: "accessory",
     details: "The Nexuas Carbon Fiber Tripod is a lightweight yet durable photography companion, built for professionals and enthusiasts who seek stability without the extra weight. Crafted from premium carbon fiber material, it offers exceptional strength while remaining easy to carry—ideal for travel, outdoor shoots, and studio use alike. Its adjustable legs with multiple angle settings and a smooth ball head provide flexible positioning, allowing for precise framing on uneven surfaces or low-angle shots. The tripod supports a wide range of cameras and equipment, ensuring secure mounting and vibration-free performance. With its quick-release plate, non-slip feet, and compact folding design, the Nexuas Carbon Fiber Tripod combines portability, stability, and reliability for every shooting scenario."
   },
+ {
+  id: 6,
+  title: "Apple Laptop Price and Specifications",
+  description: "Lightweight, high-performance Apple laptop for work and study.",
+  price: "7400.00",
+  sizes: "Medium, Large",
+  image: "https://th.bing.com/th/id/R.38f188f08867fdf7b79ccfce323f1e0c?rik=qgFBDnDQJ06kDg&pid=ImgRaw&r=0",
+  colors: ["bg-purple-800"],
+  category: "Laptop",
+  details: "This Apple laptop combines elegant design with powerful performance, making it perfect for professionals, students, and creative users. Equipped with a fast processor, long battery life, and a stunning Retina display, it delivers smooth multitasking and crystal-clear visuals. Its lightweight and sleek build make it easy to carry anywhere, whether for office work, online meetings, or travel. With advanced security features and seamless integration with other Apple devices, this laptop offers an exceptional user experience for work and entertainment alike."
+},
   {
-    id: 6,
-    title: "Apple Laptop Price and Specifications",
-    description: "Laptop ASUS ExpertBook B1 B1502CVA-BQ0584W",
-    price: "7400.00",
-    sizes: "Medium, Large",
-    image: "https://th.bing.com/th/id/R.38f188f08867fdf7b79ccfce323f1e0c?rik=qgFBDnDQJ06kDg&pid=ImgRaw&r=0",
-    colors: ["bg-purple-800"],
-    category: "laptop",
-  },
-  {
-    id: 7,
-    title: "Apple iPhone 15 Price and Specifications",
-    description: "Featuring a sleek design and powerful camera.",
-    image: "https://cdn.mediamart.vn/images/news/iphone-14-ra-mt-gia-khong-di-them-bn-plus_85815734.jpg",
-    category: "Mobile",
-   subcategory: "accessory",
-    details: "The Samsung Galaxy S24 offers cutting-edge technology with a stunning AMOLED display, ultra-fast processor, and pro-grade triple camera system. With 5G support, extended battery life, and advanced security features, it's designed for users who demand speed, clarity, and style. Perfect for photography, gaming, and multitasking on the go."
-  },
+  id: 7,
+  title: "Apple iPhone 15 Price and Specifications",
+  description: "Featuring a sleek design and powerful camera.",
+  image: "https://cdn.mediamart.vn/images/news/iphone-14-ra-mt-gia-khong-di-them-bn-plus_85815734.jpg",
+  category: "Mobile",
+  subcategory: "Smartphone",
+  details: "The Apple iPhone 15 combines premium design with advanced technology for an exceptional user experience. Featuring a powerful A16 Bionic chip, a stunning Super Retina XDR display, and an enhanced camera system for professional-quality photos and videos, it delivers performance and clarity in every use. With improved battery life, 5G connectivity, and iOS security features, the iPhone 15 keeps you connected and protected all day. Its sleek design, durable build, and seamless integration with other Apple devices make it the perfect choice for work, entertainment, and creativity."
+},
   {
     id: 8,
     title: "Infinix Hot 20i Full Specs & Accessories",
     description: "Budget-friendly smartphone with a large display",
-    image: "https://afabuy.com/storage/2023/02/ht_20i2gb_gh.webp",
+    image: "https://th.bing.com/th/id/OIP.vhcmKRzofUbP721F52UVuAAAAA?w=210&h=210&c=7&r=0&o=5&dpr=1.3&pid=1.7",
     category: "Mobile",
    subcategory: "accessory",
     details: "The Infinix Hot 20i delivers a balanced mobile experience with a 6.6-inch HD+ display, powerful 5000mAh battery, and a smooth performance chipset. It's ideal for everyday tasks, social media, and entertainment. Comes with dual cameras, expandable storage, and supports all necessary connectivity options for modern users."
@@ -87,39 +88,40 @@ const Productsdata = [
     details: "OPPO smartphones are known for their stylish design, AI-powered cameras, and seamless performance. Whether it’s for photography, gaming, or everyday use, OPPO delivers a fluid experience with its optimized UI, fast charging, and long-lasting battery. A perfect companion for tech-savvy users seeking performance and elegance."
   },
   
+ {
+  id: 10,
+  title: "Premium AI Image | Photo Camera Still Life",
+  description: "High-quality photo camera for professional photography",
+  image: "https://img.freepik.com/premium-photo/photo-camera-still-life_776674-230595.jpg",
+  category: "Camera",
+  details: "This premium photo camera is designed for photographers who demand exceptional image quality and artistic flexibility. Perfect for still life, portraits, and commercial shoots, it delivers high-resolution images with stunning clarity and true-to-life colors. Equipped with advanced AI image processing, it enhances details and reduces noise even in challenging lighting conditions. Its robust build, easy-to-use controls, and compatibility with various professional lenses make it a reliable choice for studio and outdoor photography alike. Ideal for both budding photographers and seasoned professionals looking to capture still life and detailed shots with precision."
+},
   {
-    id: 10,
-    title: "Premium AI Image | Photo camera still life",
-    description: "Professional video camera with cinema-grade features",
-    image: "https://img.freepik.com/premium-photo/photo-camera-still-life_776674-230595.jpg",
-    category: "Camera",
-    details: "The Nexuas Cinema 4K Camera is designed for filmmakers and videographers demanding professional-grade video capabilities. This camera shoots 4K video at up to 120fps for stunning slow-motion footage, with 14 stops of dynamic range and advanced color science for cinema-quality results. Features include built-in ND filters, professional audio inputs, timecode, and multiple recording formats including RAW. The modular design allows for customization with various accessories to build the perfect rig for any production."
-  },
+  id: 11,
+  title: "Samsung Galaxy S23 8/256GB Black",
+  description: "Premium smartphone with high performance and stunning camera quality",
+  image: "https://allegro.stati.pl/AllegroIMG/PRODUCENCI/SAMSUNG/Galaxy-S23-RWD/assets/phpkaxokr_galaxys23ultra_front_green.jpg",
+  category: "Mobile",
+  subcategory: "Smartphone",
+  details: "The Samsung Galaxy S23 8/256GB Black is a premium smartphone that combines sleek design with cutting-edge technology. It features a stunning AMOLED display, a powerful processor for smooth multitasking, and an advanced camera system that captures crisp and vibrant photos in any lighting condition. With 5G connectivity, long-lasting battery life, and fast charging capabilities, it’s designed for users who demand performance and style. Perfect for everyday use, photography, gaming, and productivity on the go."
+},
   {
-    id: 11,
-    title: "Samsung Galaxy Note 20 and Galaxy Note 20",
-    description: "Premium glass filter for reduced reflections",
-    image: "https://i0.wp.com/cdnssl.ubergizmo.com/wp-content/uploads/2020/08/Galaxy-Note20-Ultra_Back-Front.jpg",
-    category: "Mobile",
-    subcategory: "accessory",
-    details: "The Nexuas Circular Polarizing Filter is an essential tool for landscape and outdoor photographers. This premium glass filter reduces reflections from non-metallic surfaces like water and glass, enhances colors, and improves contrast by cutting through haze. The slim profile design prevents vignetting even at wide angles, while the multi-coated glass minimizes flare and ghosting. Available in various sizes to fit different lenses, this filter features a smooth rotation mechanism for precise control over the polarization effect."
-  },
+  id: 11,
+  title: "Samsung Galaxy Note 20 and Galaxy Note 20 Ultra",
+  description: "Premium flagship smartphone with stunning display and S Pen features.",
+  image: "https://i0.wp.com/cdnssl.ubergizmo.com/wp-content/uploads/2020/08/Galaxy-Note20-Ultra_Back-Front.jpg",
+  category: "Mobile",
+  subcategory: "Smartphone",
+  details: "The Samsung Galaxy Note 20 and Note 20 Ultra deliver a premium smartphone experience with powerful performance and productivity features. Equipped with a stunning AMOLED display, advanced triple camera system, and the signature S Pen for precise note-taking and creativity, these devices are perfect for work and entertainment on the go. With 5G connectivity, long-lasting battery life, and seamless integration with Samsung's ecosystem, the Galaxy Note 20 series combines cutting-edge technology with elegant design for users who want the best of both worlds."
+},
   {
-    id: 12,
-    title: "Olympus Digital Cameras - Overstock Shopping ",
-    description: "High-quality compact camera with 1-inch sensor",
-    image: "https://th.bing.com/th/id/OIP.D4__VbTCMOiopBVYMchXQQHaHa?w=1500&h=1500&rs=1&pid=ImgDetMain",
-    category: "Camera",
-    details: "The Nexuas Compact Point & Shoot combines convenience with quality in a pocket-sized camera. Despite its small form factor, it features a large 1-inch sensor that captures detailed images even in challenging light conditions. With a versatile 24-100mm equivalent zoom lens, 4K video recording, and built-in image stabilization, this camera is perfect for travel, family photography, and everyday moments. The intuitive touchscreen interface and smartphone connectivity make it easy to capture and share your images instantly."
-  },
-  {
-    id: 13,
-    title: "Hikvision DS-2DF5276-A IP Dome camera",
-    description: "Reliable 2MP dome camera with night vision and weatherproof design",
-    image: "https://th.bing.com/th/id/OIP.k6utfkCZeW0KjB4pp_wCbgHaE8?w=600&h=400&rs=1&pid=ImgDetMain",
-    category: "Camera",
-    details: "The Dahua HDW1200TRQ(-A) is a 2MP HDCVI dome camera that offers 1080p full HD video quality with excellent night vision up to 30 meters, thanks to its built-in infrared LEDs. Its compact design is weatherproof (IP67 rated) and vandal-resistant, making it perfect for both indoor and outdoor use. The camera features long-distance video transmission via HDCVI technology and includes a built-in microphone in the -A model for audio recording, making it ideal for 24/7 surveillance in homes, offices, and commercial spaces."
-  },
+  id: 13,
+  title: "Hikvision DS-2DF5276-A IP Dome Camera",
+  description: "Reliable 2MP dome camera with night vision and weatherproof design",
+  image: "https://th.bing.com/th/id/OIP.k6utfkCZeW0KjB4pp_wCbgHaE8?w=600&h=400&rs=1&pid=ImgDetMain",
+  category: "Camera",
+  details: "The Hikvision DS-2DF5276-A IP Dome Camera is a reliable and high-performance 2MP surveillance solution designed for both indoor and outdoor security needs. It delivers full HD 1080p video quality and excellent night vision capabilities with built-in infrared LEDs, ensuring clear footage even in low-light conditions. The camera features a weatherproof and vandal-resistant dome design, making it durable and suitable for various environments. With advanced motion detection, remote viewing, and flexible installation options, it’s ideal for monitoring homes, offices, parking lots, and commercial spaces around the clock."
+},
   {
     id: 14,
     title: "Dahua 8MP IP Camera DH-IPC-HFW5831EP-ZE – Surplus",
@@ -128,14 +130,14 @@ const Productsdata = [
     category: "Camera",
     details: "Dahua Camera Perimeter Protection is an advanced security feature designed to enhance surveillance around the perimeter of a property. Utilizing intelligent video analysis, it detects unauthorized intrusions along fences, walls, or any defined boundary. The system can distinguish between human movement, vehicles, and other objects, reducing false alarms. With real-time alerts and the ability to integrate with Dahua cameras, it offers reliable, proactive monitoring for both commercial and residential security."
   },
-  {
-    id: 15,
-    title: "Nexuas CCTV Security Camera AHD-MT-APT-B1",
-    description: "4K aerial camera drone with advanced stabilization",
-    image: "https://cdn1.industrybuying.com/products/security/cctv-camera/hdcvi-camera/hdcvi-bullet-camera/SEC.HDC.11241403.jpg",
-    category: "Camera",
-    details: "The Nexuas Drone Camera X7 offers professional aerial photography capabilities in a compact, foldable design. The drone features a 3-axis gimbal-stabilized camera that shoots 4K video at 60fps and 20MP stills with a 1-inch sensor. With a flight time of up to 31 minutes, obstacle avoidance sensors, and advanced autonomous flight modes, this drone is perfect for capturing stunning aerial perspectives. The included controller with built-in screen provides a live view of your flight, while GPS positioning ensures stable hovering and precise flight paths."
-  },
+ {
+  id: 15,
+  title: "Nexuas CCTV Security Camera AHD-MT-APT-B1",
+  description: "Reliable CCTV camera with clear video quality for indoor and outdoor surveillance.",
+  image: "https://cdn1.industrybuying.com/products/security/cctv-camera/hdcvi-camera/hdcvi-bullet-camera/SEC.HDC.11241403.jpg",
+  category: "Camera",
+  details: "The Nexuas CCTV Security Camera AHD-MT-APT-B1 is a dependable and high-resolution surveillance solution for homes, offices, and commercial properties. Featuring advanced AHD technology, it delivers clear HD video footage with excellent color reproduction, ensuring detailed monitoring day and night. The camera comes with infrared night vision, weatherproof housing for outdoor use, and a robust design that withstands various environmental conditions. Easy to install and compatible with most DVR systems, this camera is ideal for enhancing security and providing 24/7 protection for your premises."
+},
   {
     id: 16,
     title: "Laptop ASUS ExpertBook B1 B1502CVA-BQ0584W",
@@ -195,7 +197,7 @@ const Productsdata = [
     description: "Discover how electric shavers have evolved from basic trimmers to high-tech grooming tools featuring precision blades, skin-sensitive technology, and smart charging capabilities.",
     image: "https://th.bing.com/th/id/OIP.mlPwpowLsbLYjlI0mNPpawHaEq?w=1080&h=680&rs=1&pid=ImgDetMain",
     category: "Electric Shaver",
-    details: "The journey of electric shavers began in the 1930s, marked by the introduction of basic rotary models that offered a convenient alternative to traditional razors. Over the decades, these devices have undergone remarkable transformation. The integration of rechargeable batteries eliminated the need for constant plug-in use, while flexible shaving heads and hypoallergenic blades brought enhanced comfort and adaptability to different skin types and facial contours. As technology advanced, so did the design and functionality of electric shavers. Today’s models feature waterproof bodies for use in the shower, ergonomic designs for a better grip and control, and smart features like LED displays, automatic power adjustments, and self-cleaning systems. This impressive evolution has turned daily grooming into an effortless, efficient, and stylish experience, catering to the modern user's need for convenience, performance, and skin-friendly care."
+    details: "Modern electric shavers offer a high-tech grooming experience with features like precision-engineered blades for a close, comfortable shave and skin-sensitive technology that adapts to different hair types. Many models include waterproof bodies for wet or dry use, ergonomic designs for easy handling, and smart LED displays showing battery status and cleaning reminders. With rechargeable batteries, quick-charging capabilities, and self-cleaning systems, today’s electric shavers make daily grooming faster, smoother, and more convenient than ever. Perfect for busy users who want professional results with minimal effort."
   },
  {
   id: 23,
@@ -215,15 +217,13 @@ const Productsdata = [
 },
 
 {
-    id: 25,
-    title: "Premium AI Image | Photo camera still life",
-    description: "Professional video camera with cinema-grade features",
-    image: "https://static1.pocketlintimages.com/wordpress/wp-content/uploads/wm/149041-cameras-review-review-canon-eos-90d-review-image1-y948ezej2c.jpg",
-    category: "Camera",
-    details: "Designed with versatility in mind, it comes equipped with built-in ND filters for effortless light control, professional audio inputs for high-quality sound capture, and timecode support for seamless multi-camera synchronization. The camera supports a wide range of recording formats, including RAW, providing maximum flexibility during editing and post-production workflows. Its modular design allows users to tailor the setup to their specific needs, accommodating various accessories such as monitors, cages, stabilizers, and lenses. Whether you're working on an independent film, commercial, or large-scale production, the Nexuas Cinema 4K Camera is a reliable and adaptable solution that delivers cinema-level results in any environment."
-  },
-
-  
+  id: 25,
+  title: "Premium AI Image | Photo Camera Still Life",
+  description: "High-resolution photo camera for professional photography",
+  image: "https://static1.pocketlintimages.com/wordpress/wp-content/uploads/wm/149041-cameras-review-review-canon-eos-90d-review-image1-y948ezej2c.jpg",
+  category: "Camera",
+  details: "This premium photo camera is designed for photographers who demand exceptional image quality and creative flexibility. Perfect for still life, portraits, and commercial shoots, it delivers stunning high-resolution photos with true-to-life colors and sharp details. It features advanced autofocus, a wide ISO range for low-light shooting, and intuitive controls for precise settings. With durable build quality and compatibility with a wide range of professional lenses, this camera is an excellent choice for both studio and outdoor photography."
+},
 ];
 
 export default Productsdata;
