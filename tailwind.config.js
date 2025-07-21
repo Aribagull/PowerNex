@@ -8,10 +8,12 @@ module.exports = {
         DarkBlue: '#0c2534',
       },
       fontFamily: {
-        heading: ['Playfair Display', 'serif'], 
-        body: ['Open Sans', 'sans-serif'], 
-        inter: ['Inter', 'sans-serif'],    
+        lora: ['Lora', 'serif'],
+
       },
+      boxShadow: {
+    customShadow: 'rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px',
+  },
     },
   },
   plugins: [],

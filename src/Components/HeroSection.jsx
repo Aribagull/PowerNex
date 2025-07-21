@@ -1,48 +1,35 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import heroimg from "../Assets/images/hero-section.jpg";
-import { motion } from "framer-motion";
+import Video from "../Assets/video.mp4";
 
 export default function HeroSection() {
   return (
-    <div
-      className="relative h-[75vh] sm:min-h-screen bg-fixed bg-center bg-cover w-full"
-      style={{ backgroundImage: `url(${heroimg})` }}
-    >
-      <div className="absolute inset-0 bg-black/60 z-0"></div>
-      <div className="relative z-10 flex flex-col justify-center items-center text-center h-[75vh] sm:min-h-screen px-4 sm:px-6 font-inter tracking-[1px] w-full">
-
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2, duration: 0.8, ease: "easeOut" }}
-          className="text-white text-sm sm:text-base uppercase mt-16 mb-6 sm:mb-8"
+    <div className="bg-gray-100 flex justify-center items-center">
+      <div className="relative w-full mx-4 sm:mx-12 my-5 mt-28 sm:mt-32 overflow-hidden rounded-2xl">
+        <video
+          className="w-full h-[400px] sm:h-[570px] object-cover"
+          autoPlay
+          loop
+          muted
+          playsInline
         >
-          Welcome to Powernex System INC.
-        </motion.h2>
+          <source src={Video} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
 
-        <motion.h1
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.4, duration: 0.8, ease: "easeOut" }}
-          className="text-white tracking-wider text-3xl sm:text-5xl md:text-6xl font-semibold leading-snug sm:leading-tight mb-4 sm:mb-6"
-        >
-          Experience the Power of <br className="hidden sm:block" /> technology  delivered <br className="hidden sm:block" /> to Your Door
-        </motion.h1>
+        <div className="absolute inset-0 bg-black/20 z-10" />
 
-
-       <Link to="/shop">
-  <motion.button
-    initial={{ opacity: 0, y: 20 }}
-    animate={{ opacity: 1, y: 0 }}
-    transition={{ delay: 0.5, duration: 0.8, ease: "easeOut" }}
-    className="mt-4 sm:mt-6 px-6 sm:px-8 py-2.5 sm:py-3 bg-[#698927] text-white text-sm sm:text-lg font-medium rounded-full shadow hover:bg-lime-600 transition"
-  >
-    Shop Now
-  </motion.button>
-</Link>
-        
-
+        <div className="absolute inset-0 flex flex-col justify-center mt-10 sm:mt-28 pl-4 sm:pl-12 text-yellow-400 z-20">
+          <h1 className="text-2xl sm:text-5xl font-semibold mb-3 sm:mb-6">
+            Ideas to Help You Say
+          </h1>
+          <div>
+            <p className="text-sm sm:text-lg font-semibold mb-2 sm:mb-5">
+              SHOP NOW UP TO 70% OFF
+            </p>
+            <p className="text-sm sm:text-lg font-semibold">
+              PROMOTION AND STOCKS ARE LIMITED
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   );
