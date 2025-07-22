@@ -2,7 +2,7 @@ import { useState, useRef } from "react";
 import { FiSearch, FiChevronDown } from "react-icons/fi";
 import { TbGridDots, TbShoppingBag } from "react-icons/tb";
 import { IoMdClose } from "react-icons/io";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { HiMenuAlt3 } from "react-icons/hi";
 import TopNav from "./TopNav";
 import ShopMenu from "../Pages/ShopMenu";
@@ -17,6 +17,8 @@ export default function Navbar() {
   const [mobileShopOpen, setMobileShopOpen] = useState(false);
   const menuTimeout = useRef(null);
 
+  const navigate = useNavigate();
+
   const handleMouseEnter = () => {
     clearTimeout(menuTimeout.current);
     setShowMenu(true);
@@ -25,6 +27,16 @@ export default function Navbar() {
   const handleMouseLeave = () => {
     menuTimeout.current = setTimeout(() => setShowMenu(false), 200);
   };
+
+  const handleSearch = () => {
+  if (searchText.trim() !== "") {
+    navigate(`/search/${searchText.trim()}`);
+    setShowInput(false);
+    setMobileMenu(false);  
+    setSearchText("");
+  }
+};
+
 
   return (
     <div className="fixed top-0 left-0 w-full z-50 bg-white">
@@ -42,7 +54,7 @@ export default function Navbar() {
           PowerNex
         </Link>
 
-        
+        {/* Desktop search */}
         <div
           className="relative w-8 hidden md:block"
           onMouseEnter={() => setShowInput(true)}
@@ -61,12 +73,16 @@ export default function Navbar() {
               pointerEvents: showInput ? "auto" : "none",
             }}
           >
+            <FiSearch className="text-gray-500 text-xl" />
             <input
               type="text"
               placeholder="What are you looking for?"
-              className="bg-transparent outline-none text-xs text-gray-700 flex-1 pl-3 placeholder:text-gray-400"
+              className="bg-transparent outline-none text-xs text-gray-700 flex-1 placeholder:text-gray-400"
               value={searchText}
               onChange={(e) => setSearchText(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") handleSearch();
+              }}
               autoFocus={showInput}
             />
             <button
@@ -81,7 +97,7 @@ export default function Navbar() {
           </div>
         </div>
 
-     
+        {/* Desktop menu */}
         <div className="hidden md:flex items-center space-x-16">
           <div className="flex items-center space-x-6">
             <div
@@ -120,12 +136,12 @@ export default function Navbar() {
               NEW ARRIVALS
             </Link>
             <Link to="/accessories" className="text-sm text-gray-600 hover:text-gray-900">
-              Accessories
+              ACCESSORIES
             </Link>
           </div>
         </div>
 
-        {/* Cart */}
+        {/* Cart Icon */}
         <div className="relative">
           <button
             className="text-2xl text-gray-700 hover:text-gray-900"
@@ -138,9 +154,33 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* MOBILE MENU */}
+      {/* Mobile Menu */}
       {mobileMenu && (
         <div className="md:hidden px-6 pb-4 space-y-4">
+          {/* ✅ Mobile search input */}
+          <div className="flex items-center gap-2 bg-[#f8eee6] rounded-full px-4 py-2">
+            <FiSearch className="text-gray-500 text-xl" />
+            <input
+              type="text"
+              placeholder="Search products..."
+              className="bg-transparent outline-none text-sm text-gray-700 flex-1 placeholder:text-gray-400"
+              value={searchText}
+              onChange={(e) => setSearchText(e.target.value)}
+              onKeyDown={(e) => {
+                if (e.key === "Enter") handleSearch();
+              }}
+            />
+            {searchText && (
+              <button
+                className="text-xl text-gray-500 hover:text-gray-700"
+                onClick={() => setSearchText("")}
+              >
+                <IoMdClose />
+              </button>
+            )}
+          </div>
+
+          {/* Shop Toggle */}
           <button
             className="flex items-center justify-between w-full text-gray-800"
             onClick={() => setMobileShopOpen(!mobileShopOpen)}
@@ -149,8 +189,11 @@ export default function Navbar() {
               <TbGridDots />
               Shop
             </span>
-            <FiChevronDown className={`transition-transform ${mobileShopOpen ? "rotate-180" : ""}`} />
+            <FiChevronDown
+              className={`transition-transform ${mobileShopOpen ? "rotate-180" : ""}`}
+            />
           </button>
+
           {mobileShopOpen && (
             <div className="pl-4">
               <ShopMenu

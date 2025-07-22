@@ -19,6 +19,7 @@ import ScrollToTop from "./Pages/ScrollToTop";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import TermsAndConditions from "./Pages/TermsAndConditions";
 import ShippingDelivery from "./Pages/ShippingDelivery";
+import SearchResults from "./Pages/SearchResults";
 
 function Layout({ children }) {
   const location = useRouterLocation();
@@ -61,6 +62,7 @@ function App() {
             <Route path="/privacy-policy" element={<PrivacyPolicy/>} />
             <Route path="/taerms-condition" element={<TermsAndConditions/>} />
             <Route path="/shipping-delivery" element={<ShippingDelivery/>} />
+            <Route path="/search/:query" element={<SearchResults/>} />
           </Routes>
         </Layout>
       </Router>

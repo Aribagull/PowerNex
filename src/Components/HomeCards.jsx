@@ -1,7 +1,5 @@
 import { useNavigate, Link } from "react-router-dom";
 
-
-
 const products = [
   {
     id: 26,

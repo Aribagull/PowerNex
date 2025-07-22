@@ -38,7 +38,7 @@ export default function Footer() {
           <h3 className="font-semibold mb-2 text-gray-700">CONTACT</h3>
           <div className="mb-2 flex items-start gap-2">
             <FiPhone className="mt-0.5" />
-            <p>+447927462089</p>
+            <p>6315203173</p>
           </div>
           <div className="mb-2 flex items-start gap-2">
             <IoMailOpenOutline className="mt-0.5 md:h-8 md:w-8" />
@@ -106,7 +106,7 @@ export default function Footer() {
           <span>(US $)</span>
         </div>
         <div className="text-center text-gray-500 text-[10px] sm:text-xs text-wrap text-balance">
-          © 2025.support @powernex.com, 15795 Rockfield Blvd Suite G Irvine, CA 92618
+          © 2025.support @powernex.com
         </div>
         <div className="flex gap-2 items-center">
           <img
