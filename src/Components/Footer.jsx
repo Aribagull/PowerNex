@@ -4,6 +4,7 @@ import {
   FaPinterestP,
 } from "react-icons/fa6";
 import { FiPhone, FiMail, FiMapPin } from "react-icons/fi";
+import { IoMailOpenOutline } from "react-icons/io5";
 import { Link } from "react-router-dom"; 
 
 export default function Footer() {
@@ -40,12 +41,12 @@ export default function Footer() {
             <p>+447927462089</p>
           </div>
           <div className="mb-2 flex items-start gap-2">
-            <FiMail className="mt-0.5" />
-            <p>support@powernex.com</p>
+            <IoMailOpenOutline className="mt-0.5 md:h-8 md:w-8" />
+            <p>Powernexsystem@gmail.com</p>
           </div>
           <div className="flex items-start gap-2">
             <FiMapPin className="mt-0.5 md:h-6 md:w-6" />
-            <p>15795 Rockfield Blvd suite G Irvine, CA 92618</p>
+            <p>1464 OMEGA STREET ELMONT NEWYORK 11003</p>
           </div>
         </div>
 
